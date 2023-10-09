@@ -1,0 +1,138 @@
+/* You can add global styles to this file, and also import other style files */
+/* Importar los estilos de Tailwind CSS */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+body {
+  background-color: rgba(74, 189, 172, 0.2);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left; /* Alinear el contenido del contenedor a la izquierda */
+}
+
+.navbar {
+  background-color: rgba(74, 189, 172, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-buttons {
+  display: flex;
+}
+
+.login-button,
+.register-button,
+.start-button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.login-button {
+  background-color: transparent;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #4ABDAC;
+  color: white;
+  border: 1px solid #4ABDAC;
+}
+
+.register-button,
+.start-button {
+  background-color: #4ABDAC;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.register-button:hover,
+.start-button:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+
+.header {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.text-container h1 {
+  font-size: 20px;
+}
+
+.text-container p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 60px;
+  font-family: 'Mulish', sans-serif;
+}
+
+.header p {
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.image-container {
+  flex: 1;
+  text-align: right;
+}
+
+.header-image {
+  max-width: 75%;
+  height: auto;
+  margin-right: 17%;
+}
+
+.start-button {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #4ABDAC; /* Cambiar el color de fondo a #4ABDAC */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
